@@ -22,6 +22,7 @@ struct AnimalListItemView: View {
                 .frame(width: 90, height: 90)
                 .clipShape(RoundedRectangle(cornerRadius: 12))
                 
+                
             
             VStack(alignment: .leading, spacing: 8) {
                 Text(animal.name)
